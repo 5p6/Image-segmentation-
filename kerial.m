@@ -1,4 +1,4 @@
-function f=kerial(g,b)
+function f=kerial(g,b)%g是原始图像，b是卷积核，该函数仅做g与b的卷积处理
 g=im2double(g);
 [x,y]=size(g);
 [x1,y1]=size(b);
